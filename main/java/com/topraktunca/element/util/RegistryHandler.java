@@ -67,7 +67,7 @@ public class RegistryHandler {
     public static final RegistryObject<Block>  T_ORE_BLOCK = BLOCKS.register("t_ore_block", TOreBlock::new);
     public static final RegistryObject<Block>  T_GRASS_BLOCK = BLOCKS.register("t_grass_block", TGrassBlock::new);
     public static final RegistryObject<Block>  T_PLANKS = BLOCKS.register("t_planks", ()-> new Block(Block.Properties.from(Blocks.OAK_PLANKS)));
-    public static final RegistryObject<Block>  T_LOG = BLOCKS.register("t_log", ()-> new Block(Block.Properties.from(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block>  T_LOG = BLOCKS.register("t_log", ()-> new HorizontalPillarBlock(Block.Properties.from(Blocks.OAK_LOG)));
     public static final RegistryObject<Block>  T_LEAVES = BLOCKS.register("t_leaves", ()-> new Block(Block.Properties.from(Blocks.OAK_LEAVES)));
 
     public static final RegistryObject<Block> T_SAPLING = BLOCKS.register("t_sapling", () -> new TSaplingBlock(null, Block.Properties.from(Blocks.OAK_LOG)));
