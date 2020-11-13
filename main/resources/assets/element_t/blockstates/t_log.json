@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y":   { "model": "element_t:block/t_log" },
+    "axis=z":   { "model": "element_t:block/t_log", "x": 90  },
+    "axis=x":   { "model": "element_t:block/t_log", "x": 90, "y": 90  }
+  }
+}
